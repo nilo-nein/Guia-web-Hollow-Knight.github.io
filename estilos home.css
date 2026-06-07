@@ -65,6 +65,8 @@ background-color:#232C59;
    margin:25px auto;
    border-radius:10px; 
    overflow:hidden;
+     display:flex;
+    flex-direction:column;
 } 
 .enlace:hover{ background-color:#6B7CA8;
 } 

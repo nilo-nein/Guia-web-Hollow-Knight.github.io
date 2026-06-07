@@ -43,3 +43,36 @@ body{
     text-align:left;
     padding:20px;
 }
+
+
+/* ===== TÍTULO PRINCIPAL ===== */
+
+h1{
+    font-size:50px;
+    margin-bottom:10px;
+}
+
+
+/* ===== SUBTÍTULOS ===== */
+
+h2{
+    font-size:35px;
+    margin-bottom:20px;
+}
+
+
+/* ===== PÁRRAFOS ===== */
+
+p{
+    font-size:20px;
+    line-height:1.6;
+}
+
+
+/* ===== ENLACES ===== */
+
+a{
+    color:#D6E5F5;
+    text-decoration:none;
+    font-size:22px;
+}

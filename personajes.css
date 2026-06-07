@@ -1,0 +1,114 @@
+/* ===== FONDO GENERAL ===== */
+
+body{
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== ENCABEZADO ===== */
+
+.encabezado{
+    text-align: center;
+    padding: 30px;
+    background-color: #1b1b1b;
+    border-bottom: 3px solid #444;
+}
+
+.encabezado h1{
+    font-size: 3rem;
+}
+
+.encabezado p{
+    max-width: 900px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+/* ===== CONTENEDOR ===== */
+
+.personajes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+
+    padding: 30px;
+}
+
+/* ===== TARJETA GENERAL ===== */
+
+.personaje{
+    width: 350px;
+
+    border-radius: 15px;
+
+    padding: 20px;
+
+    text-align: center;
+
+    transition: 0.3s;
+}
+
+.personaje:hover{
+    transform: scale(1.03);
+}
+
+/* ===== IMAGENES ===== */
+
+.personaje img{
+    width: 220px;
+    height: auto;
+
+    margin: 15px 0;
+
+    border-radius: 10px;
+}
+
+/* ===== TITULOS ===== */
+
+.personaje h2{
+    margin-top: 0;
+    font-size: 1.8rem;
+}
+
+/* ===== TEXTO ===== */
+
+.personaje p{
+    line-height: 1.6;
+}
+
+.aliado{
+    background: linear-gradient(
+        180deg,
+        #204020,
+        #102010
+    );
+
+    border: 3px solid #57ff57;
+
+    box-shadow: 0 0 20px #57ff57;
+}
+
+.aliado h2{
+    color: #7dff7d;
+}
+
+.importante{
+    background: linear-gradient(
+        180deg,
+        #4a3c10,
+        #201900
+    );
+
+    border: 3px solid gold;
+
+    box-shadow: 0 0 20px gold;
+}
+
+.importante h2{
+    color: gold;
+}
+

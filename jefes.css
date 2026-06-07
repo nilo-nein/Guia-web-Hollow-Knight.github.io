@@ -139,3 +139,49 @@ body {
     color: #A9C7FF;
     font-style: italic;
 }
+
+/* =========================
+   GRIMM - JEFE ESPECIAL
+========================= */
+
+.jefe.grimm {
+    background: linear-gradient(145deg, #1A0A0A, #2A0D0D);
+    border-left: 6px solid #FF1E1E;
+    box-shadow: 0 0 15px rgba(255, 30, 30, 0.25);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Efecto de “brillo vivo” */
+.jefe.grimm::before {
+    content: "";
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle, rgba(255,30,30,0.15), transparent 60%);
+    animation: grimmGlow 6s infinite linear;
+}
+
+/* Animación suave */
+@keyframes grimmGlow {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Texto dentro de Grimm un poco más “intenso” */
+.jefe.grimm h2 {
+    color: #FF3B3B;
+    text-shadow: 0 0 8px rgba(255, 30, 30, 0.5);
+}
+
+/* Imágenes de Grimm más dramáticas */
+.jefe.grimm img {
+    border: 2px solid rgba(255, 30, 30, 0.4);
+    filter: contrast(1.1) saturate(1.2);
+}

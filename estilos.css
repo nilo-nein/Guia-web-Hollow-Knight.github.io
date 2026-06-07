@@ -84,10 +84,10 @@ a{
 
 .enlace{
     background-color:#232C59;
-    padding:25px;
-    margin:20px auto;
-    width:300px;
+    width:350px;
+    margin:25px auto;
     border-radius:10px;
+    overflow:hidden;
 }
 
 .enlace:hover{
@@ -96,7 +96,20 @@ a{
 
 .enlace a{
     display:block;
-    font-size:26px;
+    padding:20px;
+    color:#D6E5F5;
+    text-decoration:none;
+    font-size:28px;
+}
+
+/* ===== IMÁGENES DE TARJETAS ===== */
+
+.enlace img{
+    width:100%;
+    height:170px;
+    object-fit:cover;
+    border-radius:10px 10px 0 0;
+    display:block;
 }
 
 

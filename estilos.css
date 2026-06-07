@@ -1,0 +1,45 @@
+/* ===== CONFIGURACIÓN GENERAL ===== */
+
+body{
+    background-color:#02030A;
+    color:#D6E5F5;
+    font-family:Arial, sans-serif;
+    margin:0;
+    padding:0;
+}
+
+
+/* ===== ENCABEZADO ===== */
+
+.encabezado{
+    background-color:#050B1A;
+    text-align:center;
+    padding:80px 50px;
+}
+
+
+/* ===== INTRODUCCIÓN ===== */
+
+.introduccion{
+    background-color:#232C59;
+    text-align:left;
+    padding:40px;
+}
+
+
+/* ===== MENÚ PRINCIPAL ===== */
+
+.menu-principal{
+    background-color:#556597;
+    text-align:center;
+    padding:40px;
+}
+
+
+/* ===== PIE DE PÁGINA ===== */
+
+.pie-pagina{
+    background-color:#02030A;
+    text-align:left;
+    padding:20px;
+}

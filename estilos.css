@@ -76,3 +76,19 @@ a{
     text-decoration:none;
     font-size:22px;
 }
+
+/* ===== TARJETAS DEL MENÚ ===== */
+
+.enlace{
+    background-color:#232C59;
+    padding:20px;
+    margin:15px auto;
+    width:250px;
+    border-radius:10px;
+}
+
+.enlace:hover{
+    background-color:#6B7CA8;
+}
+
+

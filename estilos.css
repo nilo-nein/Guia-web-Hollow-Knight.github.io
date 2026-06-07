@@ -114,4 +114,18 @@ a{
     display:block;
 }
 
+.historia-principal{
+    max-width:1000px;
+    margin:auto;
+    padding:40px;
+}
+
+.historia-principal img{
+    width:100%;
+    max-width:800px;
+    display:block;
+    margin:30px auto;
+    border-radius:10px;
+}
+
 

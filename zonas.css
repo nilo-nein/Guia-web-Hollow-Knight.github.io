@@ -38,7 +38,7 @@ body{
 }
 
 /* =========================
-   ARTÍCULOS BASE
+   TARJETAS BASE
 ========================= */
 
 .zonas article{
@@ -60,131 +60,144 @@ body{
     width:100%;
     max-width:800px;
     display:block;
-    margin:20px auto;
+    margin:20px auto 0;
     border-radius:10px;
+    border:2px solid rgba(255,255,255,0.1);
 }
 
 /* =========================
-   ZONAS (COLORES POR ÁREA)
+   ZONAS INDIVIDUALES
 ========================= */
 
-/* Paso del Rey */
+/* Inicio del juego */
 .paso-rey{
-    background-color:#1A1F2E;
-    border-left:6px solid #8FA3C7;
+    background-color:#1B1F3A;
+    border-left:6px solid #6FA8FF;
 }
 
 /* Bocasucia */
 .bocasucia{
-    background-color:#2A2F1F;
-    border-left:6px solid #C2B280;
-}
-
-/* Cruces Olvidados */
-.cruces-olvidados{
-    background-color:#1B1B1B;
-    border-left:6px solid #A0A0A0;
-}
-
-/* Sendero Verde */
-.camino-verde{
-    background-color:#1A2E1D;
-    border-left:6px solid #4CAF50;
-}
-
-/* Cañón Nublado */
-.cañon-nublado{
-    background-color:#1C2233;
-    border-left:6px solid #9BB7D4;
-}
-
-/* Páramos Fúngicos */
-.fungicos{
-    background-color:#1E2A1E;
-    border-left:6px solid #7CFF7C;
-}
-
-/* Cumbres de Cristal */
-.cumbres-cristal{
-    background-color:#1A1F2B;
-    border-left:6px solid #66CCFF;
-}
-
-/* Ciudad de Lágrimas */
-.ciudad-lagrimas{
-    background-color:#121826;
-    border-left:6px solid #A9C7FF;
-}
-
-/* Acantilados Aulladores */
-.acantilados-aulladores{
-    background-color:#1A1A2E;
-    border-left:6px solid #8E7CC3;
-}
-
-/* Canales Reales */
-.canales-reales{
-    background-color:#0F1B1F;
-    border-left:6px solid #4DB6AC;
-}
-
-/* Límite del Reino */
-.limite-reino{
-    background-color:#1B1B1B;
+    background-color:#2A2F4A;
     border-left:6px solid #B0B0B0;
 }
 
-/* Coliseo de los Insensatos */
+/* Cruces olvidados */
+.cruces-olvidados{
+    background-color:#1C1C2A;
+    border-left:6px solid #8FAAFF;
+}
+
+/* Sendero verde */
+.camino-verde{
+    background-color:#0F2A1E;
+    border-left:6px solid #3DFF8A;
+}
+
+/* Cañón nublado */
+.cañon-nublado{
+    background-color:#1A1A2E;
+    border-left:6px solid #A0A0FF;
+}
+
+/* Páramos fúngicos */
+.fungicos{
+    background-color:#1E1A0F;
+    border-left:6px solid #C2A25A;
+}
+
+/* Cumbres de cristal */
+.cumbres-cristal{
+    background-color:#121B2E;
+    border-left:6px solid #6FD3FF;
+}
+
+/* Ciudad de lágrimas */
+.ciudad-lagrimas{
+    background-color:#0D0F1A;
+    border-left:6px solid #9AB0FF;
+}
+
+/* Acantilados aulladores */
+.acantilados-aulladores{
+    background-color:#141422;
+    border-left:6px solid #CFCFCF;
+}
+
+/* Canales reales */
+.canales-reales{
+    background-color:#0B0B10;
+    border-left:6px solid #5A6A7A;
+}
+
+/* Límite del reino */
+.limite-reino{
+    background-color:#0E0E14;
+    border-left:6px solid #FFB84D;
+}
+
+/* Coliseo */
 .coliseo-insensatos{
-    background-color:#2A1A1A;
-    border-left:6px solid #FF5252;
+    background-color:#1A0F0F;
+    border-left:6px solid #FF4D4D;
 }
 
-/* Cuenca Antigua */
+/* Cuenca antigua */
 .cuenca-antigua{
-    background-color:#1A1410;
-    border-left:6px solid #8D6E63;
+    background-color:#0A0F14;
+    border-left:6px solid #8FB3C7;
 }
 
-/* Jardines de la Reina */
+/* Jardines de la reina */
 .jardines-reina{
-    background-color:#1A2E22;
-    border-left:6px solid #81C784;
+    background-color:#0F1A12;
+    border-left:6px solid #7CFFB2;
 }
 
-/* La Colmena */
+/* Colmena */
 .colmena{
-    background-color:#2E2A1A;
-    border-left:6px solid #FFD54F;
+    background-color:#1A140A;
+    border-left:6px solid #FFD24D;
 }
 
-/* Nido Profundo */
+/* Nido profundo */
 .nido-profundo{
-    background-color:#0A0A0F;
-    border-left:6px solid #444;
+    background-color:#05060A;
+    border-left:6px solid #3A3A3A;
 }
 
-/* Palacio Blanco */
+/* Palacio blanco */
 .palacio-blanco{
-    background-color:#F2F2F2;
+    background-color:#F5F5F5;
     color:#111;
     border-left:6px solid #FFFFFF;
 }
 
-/* Sendero del Dolor */
+/* Sendero del dolor */
 .sendero-dolor{
-    background-color:#120A1A;
-    border-left:6px solid #C084FC;
+    background-color:#1A0A14;
+    border-left:6px solid #FF5AA5;
 }
 
-/* Tierras de Reposo */
+/* Tierras de reposo */
 .tierras-reposo{
-    background-color:#0F1C2E;
-    border-left:6px solid #7AA2E3;
+    background-color:#0A1020;
+    border-left:6px solid #7AA6FF;
 }
 
 /* Abismo */
 .abismo{
-    background-color:#050505;
+    background-color:#000000;
     border-left:6px solid #2B2B2B;
+}
+
+/* =========================
+   FOOTER
+========================= */
+
+.pie-pagina{
+    text-align:center;
+    padding:30px;
+    background-color:#05060A;
+    border-top:2px solid #2C3E66;
+    font-size:14px;
 }

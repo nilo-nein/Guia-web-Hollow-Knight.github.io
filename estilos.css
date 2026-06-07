@@ -128,4 +128,46 @@ a{
     border-radius:10px;
 }
 
+/* ===== CONTENEDOR GENERAL ===== */
+
+.historia-principal article{
+    padding:25px;
+    margin:30px 0;
+    border-radius:12px;
+}
+
+/* ===== INTRODUCCIÓN ===== */
+
+.introduccion{
+    background-color:#101A35;
+    border-left:6px solid #7DA7D9;
+}
+
+/* ===== REY PÁLIDO ===== */
+
+.rey-palido{
+    background-color:#141824;
+    border-left:6px solid #E8E8E8;
+}
+
+/* ===== EDAD DE ORO ===== */
+
+.edad-de-oro{
+    background-color:#182548;
+    border-left:6px solid #AFC6E9;
+}
+
+/* ===== INFECCIÓN ===== */
+
+.infeccion{
+    background-color:#1A1008;
+    border-left:6px solid #F28C28;
+}
+
+/* ===== RECIPIENTES ===== */
+
+.recipientes{
+    background-color:#0D0D12;
+    border-left:6px solid #8A8A8A;
+}
 

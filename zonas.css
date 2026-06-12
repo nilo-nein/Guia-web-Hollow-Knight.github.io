@@ -245,3 +245,13 @@ body{
 
     box-shadow: 0 0 12px #6ca8ff;
 }
+
+body{
+    background:
+    linear-gradient(
+        180deg,
+        #08121f,
+        #10233c,
+        #08121f
+    );
+}

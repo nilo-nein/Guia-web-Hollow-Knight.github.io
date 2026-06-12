@@ -239,3 +239,13 @@ footer{
 
     box-shadow: 0 0 12px #6ca8ff;
 }
+
+body{
+    background:
+    linear-gradient(
+        180deg,
+        #08131c,
+        #123042,
+        #08131c
+    );
+}

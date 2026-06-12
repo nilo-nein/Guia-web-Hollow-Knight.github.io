@@ -214,3 +214,160 @@ font-size:14px;
 
     box-shadow: 0 0 12px #6ca8ff;
 }
+
+.hero{
+
+    min-height: 80vh;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    text-align: center;
+
+    padding: 50px;
+
+    background:
+    linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.7)
+    ),
+    url("images/banner.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+}
+
+.hero h1{
+
+    font-size: 4rem;
+
+    color: white;
+
+    text-shadow:
+        0 0 10px white,
+        0 0 20px #6ca8ff,
+        0 0 40px #6ca8ff;
+
+    margin-bottom: 20px;
+}
+
+.hero p{
+
+    max-width: 900px;
+
+    margin: auto;
+
+    font-size: 1.3rem;
+
+    line-height: 1.8;
+
+    color: #d9d9d9;
+}
+
+.hero-contenido{
+
+    animation: subir 1.2s ease;
+}
+
+@keyframes subir{
+
+    from{
+        opacity: 0;
+        transform: translateY(40px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.accesos{
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    flex-wrap: wrap;
+
+    margin-top: 40px;
+}
+
+.accesos a{
+
+    background: rgba(108,168,255,0.15);
+
+    border: 2px solid #6ca8ff;
+
+    color: white;
+
+    padding: 15px 25px;
+
+    border-radius: 15px;
+
+    text-decoration: none;
+
+    font-weight: bold;
+
+    transition: .3s;
+}
+
+.accesos a:hover{
+
+    background: #6ca8ff;
+
+    box-shadow: 0 0 20px #6ca8ff;
+
+    transform: translateY(-4px);
+}
+
+.hero h2{
+
+    font-size: 2rem;
+
+    color: #cfdcff;
+
+    margin-bottom: 25px;
+
+    text-shadow:
+        0 0 10px rgba(108,168,255,0.5);
+
+    font-weight: normal;
+}
+
+.hero h1{
+
+    font-size: 5rem;
+
+    margin-bottom: 10px;
+
+    letter-spacing: 3px;
+}
+
+.hero h1::after{
+
+    content: "";
+
+    display: block;
+
+    width: 250px;
+
+    height: 3px;
+
+    margin: 20px auto;
+
+    background: linear-gradient(
+        to right,
+        transparent,
+        #6ca8ff,
+        transparent
+    );
+
+    box-shadow: 0 0 10px #6ca8ff;
+}

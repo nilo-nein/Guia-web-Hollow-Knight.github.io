@@ -220,3 +220,28 @@ article,
 
     z-index: 1;
 }
+
+.volver-arriba{
+
+    position: fixed;
+
+    right: 20px;
+
+    bottom: 20px;
+
+    width: 50px;
+
+    height: 50px;
+
+    border-radius: 50%;
+
+    background: #6ca8ff;
+
+    color: white;
+
+    text-align: center;
+
+    line-height: 50px;
+
+    text-decoration: none;
+}

@@ -218,3 +218,9 @@ img{
 
     box-shadow: 0 0 10px #6ca8ff;
 }
+
+.menu .activo{
+    background-color: #28446e;
+
+    box-shadow: 0 0 12px #6ca8ff;
+}

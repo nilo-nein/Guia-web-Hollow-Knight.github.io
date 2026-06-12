@@ -160,3 +160,63 @@ body{
     }
 }
 
+body{
+
+    background-image: url("images/fondo-hallownest.jpg");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-attachment: fixed;
+
+}
+
+.enlace,
+article,
+.habilidad{
+
+    animation: aparecer 0.8s ease;
+}
+
+@keyframes aparecer{
+
+    from{
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.hero{
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.hero::before{
+
+    content: "";
+
+    position: absolute;
+
+    inset: 0;
+
+    background:
+        linear-gradient(
+            rgba(0,0,0,0.6),
+            rgba(0,0,0,0.4)
+        );
+}
+
+.hero-contenido{
+
+    position: relative;
+
+    z-index: 1;
+}

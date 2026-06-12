@@ -224,3 +224,19 @@ img{
 
     box-shadow: 0 0 12px #6ca8ff;
 }
+
+body{
+    background:
+    linear-gradient(
+        180deg,
+        #13110c 0%,
+        #2a2417 50%,
+        #13110c 100%
+    );
+}
+
+.encabezado h1{
+    color: #f7e6a3;
+    text-shadow: 0 0 20px #d4b75c;
+}
+

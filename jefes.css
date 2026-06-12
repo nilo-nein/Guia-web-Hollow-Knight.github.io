@@ -287,3 +287,17 @@ body {
 
     box-shadow: 0 0 12px #6ca8ff;
 }
+body{
+    background:
+    linear-gradient(
+        180deg,
+        #180909,
+        #2a1111,
+        #180909
+    );
+}
+
+.encabezado h1{
+    color: #ffb4b4;
+    text-shadow: 0 0 20px #ff4444;
+}
